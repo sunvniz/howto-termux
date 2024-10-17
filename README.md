@@ -2,6 +2,6 @@
 `adb forward tcp:18080 tcp:8080` and then access localhost:18080
 
 # How to undo port forward:
-`adb forward --list`
-`adb forward --remove tcp:<local_port>`
-`adb forward --remove-all`
+`adb forward --list` 
+`adb forward --remove tcp:<local_port>` 
+`adb forward --remove-all` 
